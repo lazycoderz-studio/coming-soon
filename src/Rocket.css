@@ -1,0 +1,18 @@
+/* src/Rocket.css */
+.rocket {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4rem;
+    animation: rocketFlame 1s infinite alternate;
+  }
+  
+  @keyframes rocketFlame {
+    0% {
+      text-shadow: 0 0 10px #ff0, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00;
+    }
+    100% {
+      text-shadow: 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0, 0 0 80px #ff0;
+    }
+  }
+  

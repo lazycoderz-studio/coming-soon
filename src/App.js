@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+// src/App.js
+import React, { useState, useEffect } from 'react';
+import Rocket from './Rocket';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>We will be live soon</h1>
+        <p>Visit us at lazycoderz.com</p>
+        <p>Check our YouTube channel: <a href="https://www.youtube.com/channel/UC_LazyCoderz" target="_blank" rel="noopener noreferrer">Lazy Coderz</a></p>
       </header>
     </div>
   );
